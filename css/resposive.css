@@ -1,8 +1,3 @@
-@media screen and (min-width: 769px) {
-    .humburger {
-        display: none;
-    }
-}
 
 @media screen and (max-width: 1280px) {
     .site-width {
