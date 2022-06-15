@@ -1,0 +1,827 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.site-width {
+  max-width: 1200px;
+  margin: 0rem auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #fff;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+p,
+a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.head-dark-lg {
+  font-size: 2.625rem;
+  font-family: "Poppins", sans-serif;
+  color: #242a56;
+  font-weight: 700;
+  line-height: 3rem;
+  margin: 0rem 0rem 1rem;
+}
+
+.head-dark-md {
+  font-size: 1.25rem;
+  color: #242a56;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem 0rem;
+}
+
+/* <<<<<<SECTION HEADER>>>>> */
+.header {
+  background: url(../images/Home/bgimg1.jpg) center no-repeat;
+  background-size: cover;
+  transition: 0.8s linear;
+  background-position: bottom 200px;
+}
+
+.header-1 {
+  background: url(../images/About/why-choose-us-512px.jpg) center no-repeat;
+  background-size: cover;
+  transition: 0.8s linear;
+}
+
+.header-2 {
+  background: url(../images/About/about-bg-img.jpg) center no-repeat;
+  background-size: cover;
+  transition: 0.8s linear;
+}
+
+button {
+  background: none;
+}
+
+.left,
+.right {
+  display: flex;
+}
+
+.sl {
+  padding: 1px 19px;
+  background: #6878d640;
+  position: absolute;
+  border-radius: 50px;
+  top: 330px;
+  color: #fff;
+}
+
+.right-sl {
+  right: 30px;
+}
+
+.left-sl {
+  left: 30px;
+}
+
+.header-cont {
+  background: #242a56c7;
+}
+
+/* NAVBAAR>>> */
+
+
+.navbar {
+  padding: 1.2rem 0rem;
+  transition: 0.3s linear;
+
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  padding: 1.2rem 0rem;
+}
+
+.navbar-active {
+  color: #f0f0f0 !important;
+}
+
+.navbar-plain-link {
+  color: #d0d8ea;
+  padding: 0rem 1.4rem;
+  transition: all 0.2s linear;
+}
+
+.btn {
+  background-color: #6878d6;
+  padding: 0.9rem 1.7rem;
+  border-radius: 0.4rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* BANNER TXT>>>>>>> */
+.banner-txt {
+  width: 44%;
+  color: #f0f0f0;
+}
+
+.banner-txt h1 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 3.5rem;
+}
+
+.banner-txt p {
+  padding: 2rem 0rem;
+  line-height: 1.7rem;
+}
+
+.banner b {
+  line-height: 1.7rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.banner b a {
+  color: #6878d6;
+}
+
+.make-it-light {
+  color: #9dabff !important;
+}
+
+.main-button {
+  padding: 7rem 0rem;
+}
+
+/* <<<<<< WEB SOLUTION >>>>>>>>> */
+.web-solution {
+  padding: 3rem 0rem;
+  text-align: center;
+}
+
+.web-solution-cont {
+  padding: 2rem 0rem;
+}
+
+.web-solution-cont>button {
+  margin: 2rem 0rem;
+}
+
+/* <<<<<<<SERVICE>>>>>>>> */
+.service {
+  background: #d0d8ea40;
+  padding: 5rem 0rem;
+}
+
+.service-head {
+  width: 70%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.service-slot-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.service-sl {
+  flex-basis: 29%;
+  padding: 0.5rem 0rem 1.5rem;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.service-slot-icon {
+  width: 20%;
+  margin: 1rem auto;
+  font-size: 4rem;
+  color: #7b89db;
+  ;
+}
+
+.service-slot-text {
+  width: 90%;
+  margin: 0rem auto;
+  text-align: center;
+}
+
+/* <<<<<<<PORTFOLIO>>>>>>> */
+.portfolio {
+  text-align: center;
+  padding: 5rem 0rem;
+}
+
+.port-head-title {
+  padding: 0rem 0rem 0.6rem;
+}
+
+.port-head-para {
+  width: 45%;
+  margin: 0rem auto 1rem;
+}
+
+.port-slot {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 4rem 0rem 3rem;
+}
+
+.port-sl {
+  flex-basis: 22%;
+}
+
+.port-sl img {
+  width: 100%;
+}
+
+.port-button {
+  padding: 1rem 0rem;
+}
+
+/* <<<<<<<<<<<TESTIMONIAL>>>>>>>>>>>> */
+.testimonial {
+  text-align: center;
+  background-color: #d0d8ea38;
+  padding: 5rem 0rem;
+  position: relative;
+}
+
+.test-inner2 {
+  position: absolute;
+  top: 79px;
+}
+
+.test-ps-ab {
+  position: absolute;
+  top: 79px;
+  right: 67px;
+  width: 90%;
+}
+
+.test-head-title {
+  color: #242a56;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75rem;
+  padding: 0rem 0rem 1rem;
+}
+
+.test-head-para {
+  width: 48%;
+  margin: 0rem auto 1rem;
+}
+
+.user-img {
+  width: 5%;
+  margin: 1rem auto;
+}
+
+.user-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.user b {
+  color: #242a56;
+  font-family: "Open Sans", sans-serif;
+}
+
+.user p {
+  color: #566892;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin: 0.4rem 0rem;
+}
+
+/* <<<<<<<<<<<<<< OUR-TEAM >>>>>>>>>>>>>>>>>> */
+.our-team {
+  padding: 5rem 0rem 2rem;
+  text-align: center;
+}
+
+.team-head-title {
+  margin: 2rem 0rem;
+}
+
+.team-head-para {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.hire-slot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: 6rem auto 2rem;
+  box-shadow: 0px 5px 40px -10px rgb(86 104 146 / 33%);
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+}
+
+.hire-slot h1 {
+  text-align: left;
+  padding: 0rem 0rem 1rem;
+  color: #6878d6;
+  font-size: 1.75rem;
+}
+
+.hire-slot p {
+  width: 90%;
+  text-align: left;
+  padding: 1rem 0rem 1.7rem;
+  color: #393a56;
+}
+
+.hire-sl-btn {
+  width: 30%;
+  text-align: center;
+}
+
+/* <<<<<<<<<<<< FOOTER >>>>>>>>>>>>>>>>>>> */
+.footer {
+  background-color: #242a56;
+  opacity: 0.85;
+  padding: 5rem 0rem 1rem;
+}
+
+.footer-slot {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 4rem;
+}
+
+.foot-icon-sl1 {
+  flex-basis: 45%;
+}
+
+.foot-icon-png {
+  width: 10%;
+}
+
+.foot-icon-png img {
+  width: 100%;
+}
+
+.foot-icon-sl1 p {
+  width: 75%;
+  color: #ffff;
+  padding: 1rem 0rem 2rem;
+}
+
+.social-icon a {
+  color: #d0d8ea;
+  transition: all 0.2s linear;
+}
+
+.social-icon a:hover {
+  color: #fff;
+}
+
+.social-icon i {
+  padding-right: 1rem;
+}
+
+.foot-link-sl {
+  width: 20%;
+}
+
+.foot-link-sl h2 {
+  color: #fff;
+  padding: 0rem 0rem 1rem 1.2rem;
+}
+
+.foot-link-sl ul li {
+  line-height: 2.3rem;
+}
+
+.foot-git {
+  color: #fff;
+  width: 31%;
+}
+
+.foot-git h2 {
+  padding: 0rem 0rem 1rem;
+}
+
+.foot-sl-git-contact {
+  padding: 0.5rem 0rem;
+}
+
+.foot-sl-git-contact span p {
+  color: #fff;
+}
+
+.foot-sl-git-contact a {
+  color: #fff;
+  display: flex;
+}
+
+.foot-icon-pad-rt {
+  padding-right: 1rem;
+}
+
+.copyright {
+  padding: 2rem 0rem 1rem;
+  color: #fff;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #566892;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.abt-header {
+  background: url(../images/About/about-bg-img.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.abt-banner-txt {
+  width: 100%;
+  text-align: center;
+  padding: 4% 0rem;
+}
+
+.abt-banner-txt h1 {
+  padding: 0rem 0rem 1.2rem;
+}
+
+.abt-banner-txt p {
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+  padding: 0rem 0rem 4rem;
+}
+
+
+/* <<<<<<<ABOUT-US>>>>>>>>>>> */
+.abt-about-us {
+  background: #d0d8ea40;
+}
+
+.abt-about-us-slot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+  top: -5rem;
+}
+
+.about-us-sl {
+  width: 30%;
+  background: #fff;
+  margin: 0.5rem 0.9rem;
+}
+
+.about-us-text-padd {
+  padding: 2.1875rem;
+}
+
+.abt-unord li {
+  display: flex;
+  align-items: center;
+  list-style-type: disc !important;
+}
+
+.abt-unord li i {
+  padding-right: 1rem;
+}
+
+.abt-about-us-head {
+  color: #242a56;
+  padding: 1rem 0rem;
+  position: relative;
+}
+
+.abt-about-us-head::before {
+  content: "";
+  position: absolute;
+  width: 4rem;
+  height: 0.4rem;
+  left: 0rem;
+  top: 0rem;
+  right: 0rem;
+  background: #6878D6;
+}
+
+.abt-about-us-para {
+  line-height: 2.1;
+}
+
+
+
+
+
+/* <<<<<<<<< PROCESS >>>>>>>>> */
+.process {
+  background-color: #d0d8ea0f;
+  padding-top: 2rem;
+}
+
+.pro-main-head {
+  text-align: center;
+  font-size: 2.625rem;
+  color: #242a56;
+}
+
+.process-slot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pro-sl {
+  flex-basis: 33.3%;
+  padding: 2.5rem;
+}
+
+.pro-sl h1 {
+  color: #242a5610;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.pro-sl h2 {
+  color: #242a56;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+
+/* <<<<<<CHOOSE  US>>>>>>>>>>> */
+/* 
+.choose-us{
+    background-color: ;
+} */
+.choose-us-slot {
+  display: flex;
+  width: 100%;
+}
+
+.choose-us-blank {
+  width: 50%;
+  background: url(../images/About/why-choose-us.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.choose-us-blank-bg {
+  background-color: #242A56;
+  opacity: 0.65;
+  height: 100%;
+}
+
+.choose-us-text {
+  width: 50%;
+  padding: 5% 0rem;
+  background-color: #d0d8ea40;
+}
+
+.choose-us-text-inner {
+  width: 80%;
+  padding: 0rem 0rem 0rem 8%;
+}
+
+.choose-us-text h1 {
+  font-size: 2.625rem;
+  color: #242a56;
+  padding: 1rem 0rem;
+}
+
+.choose-us-block {
+  width: 88%;
+  background: #fff;
+  padding: 0rem 0.9rem;
+  margin: 1rem 0rem;
+}
+
+.chooose-block-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.5rem 0.5rem 0rem;
+  border-bottom: 0.1rem solid #e5e1e185;
+}
+
+.chooose-block-row a :hover {
+  color: #242a56;
+  transition: 0.5s linear;
+}
+
+
+
+
+
+
+/* -----------  ABOUT ----------- */
+
+/* <<<<<<<<SOME NUMBRS>>>>>>>>>>> */
+.some-numbers {
+  padding: 3rem 0rem;
+}
+
+.sm-number-slot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3% 0rem;
+}
+
+.sm-number-slot h1 {
+  font-size: 2rem;
+  padding: 0.4rem 0rem;
+  color: #242a56;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------- CONTACT US ------------------ */
+
+.contact-banner-para1 {
+  padding: 0rem 0rem 0.6rem !important;
+}
+
+.contact-banner-para2 {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+
+
+.contact-git {
+  background-color: #d0d8ea42;
+  padding: 4rem 0rem;
+}
+
+.contact-git h1 {
+  font-size: 1.75rem;
+  color: #393a56;
+}
+
+.contact-git-slot {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 2rem 0rem;
+  margin: 3rem 0rem;
+  justify-content: space-evenly;
+}
+
+.contact-git-sl {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.contact-git-sl-address {
+  width: 22%;
+}
+
+.contact-git-sl-main {
+  margin-right: 2.4rem;
+}
+
+.input-box {
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  height: 2.6rem;
+  margin: 1rem 0rem;
+  padding: 0rem 0.3rem;
+  background-color: #d0d8ea0f;
+  border: 0.05rem solid #bbbbbb4b;
+}
+
+.input-msg {
+  height: 6rem;
+  width: 130%;
+  font-size: 1rem;
+  text-align: left;
+  padding: 0.2rem 0rem;
+}
+
+textarea {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.contact-git-sl-address {
+  padding-left: 3rem;
+}
+
+.contact-git-sl-address a,
+.contact-git-sl-address p {
+  color: #636363 !important;
+}
+
+.contact-git-sl-address a {
+  padding: 0.5rem 0rem;
+}
+
+.address-padd-top {
+  padding-top: 5rem;
+}
+
+.contact-hire {
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- service -------- */
+
+.service-header {
+  background: url(../images/About/why-choose-us.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.service-cont {
+  padding: 0rem 0rem 4.5rem;
+}
+
+/* <<<<<<<<<AUDIT NOW>>>>>>>>>>> */
+.audit-now {
+  text-align: center;
+  padding: 3rem 0rem;
+}
+
+.audit-now h2 {
+  font-size: 2rem;
+  color: #242a56;
+  padding: 0rem 0rem 1rem;
+}
+
+.input-box {
+  padding: 0rem 0.2rem;
+  margin: 0rem 0.5rem 2.5rem;
+  width: 98%;
+  font-size: 1.1rem;
+  height: 2.5rem;
+  border: 0.1rem solid #4285f4;
+  border-radius: 0.2rem;
+  outline: none;
+}
+
+.service-btn {
+  padding: 1.3rem 6.5rem;
+  background-color: #4285f4;
+}
+
+.audit-now p {
+  font-size: 0.875rem;
+  margin-top: 1.5rem;
+}
+
+.service-hire {
+  background-color: #fff;
+}
